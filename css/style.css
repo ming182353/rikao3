@@ -1,0 +1,161 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 9, style.scss */
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 14, style.scss */
+.header .uls, .xuan .boxss .tops {
+  position: relative; }
+
+/* line 15, style.scss */
+.header .uls hr, .xuan .boxss .tops span:nth-child(1), .xuan .boxss .tops span:nth-child(2), .xuan .boxss .tops span:nth-child(3) {
+  position: absolute; }
+
+/* line 17, style.scss */
+html, body {
+  font-size: 100px;
+  font-family: "microsoft yahei"; }
+
+/* line 24, style.scss */
+.box {
+  font-size: .16rem;
+  display: flex;
+  flex-direction: column; }
+
+/* line 30, style.scss */
+.main {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+
+/* line 36, style.scss */
+.header {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  text-align: center; }
+  /* line 41, style.scss */
+  .header .uls {
+    width: 100%;
+    display: flex; }
+    /* line 45, style.scss */
+    .header .uls li {
+      width: 33.3%;
+      color: #666; }
+    /* line 49, style.scss */
+    .header .uls hr {
+      left: 7%;
+      bottom: 2px;
+      width: 20%;
+      height: 3px;
+      background: blue; }
+    /* line 58, style.scss */
+    .header .uls .bg {
+      color: #5686F4; }
+
+/* line 63, style.scss */
+.hneg {
+  width: 100%;
+  height: .1rem;
+  background: #eee; }
+
+/* line 68, style.scss */
+.xuan {
+  width: 100%;
+  padding: 10px; }
+  /* line 71, style.scss */
+  .xuan .boxss {
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+    overflow: hidden; }
+    /* line 77, style.scss */
+    .xuan .boxss .tops {
+      width: 100%;
+      height: .6rem;
+      background: #FD6060;
+      border-bottom: 1px  dashed #fff;
+      color: #fff; }
+      /* line 85, style.scss */
+      .xuan .boxss .tops span:nth-child(1) {
+        left: 5%;
+        top: 2%;
+        font-size: 29px; }
+      /* line 94, style.scss */
+      .xuan .boxss .tops span:nth-child(2) {
+        left: 15%;
+        top: 2%;
+        font-size: 47px; }
+      /* line 102, style.scss */
+      .xuan .boxss .tops span:nth-child(3) {
+        right: 6%;
+        bottom: 5%;
+        font-size: 22px; }
+    /* line 114, style.scss */
+    .xuan .boxss .xias {
+      width: 100%;
+      height: .4rem;
+      background: #eee; }
+      /* line 118, style.scss */
+      .xuan .boxss .xias p {
+        width: 100%;
+        display: flex;
+        padding: 1px 8px; }
+        /* line 122, style.scss */
+        .xuan .boxss .xias p label {
+          font-size: 3px;
+          display: inline-block;
+          margin-left: 5px; }
+        /* line 127, style.scss */
+        .xuan .boxss .xias p #small1 {
+          color: #00A864; }
+        /* line 131, style.scss */
+        .xuan .boxss .xias p #labe12 {
+          color: #00A864; }
+      /* line 135, style.scss */
+      .xuan .boxss .xias p:nth-child(2) {
+        color: #666; }
+
+/* line 144, style.scss */
+.boxss:nth-child(1) .tops {
+  background: #FD6060; }
+
+/* line 149, style.scss */
+.boxss:nth-child(2) .tops {
+  background: #5686F4; }
+
+/* line 155, style.scss */
+.boxss:nth-child(3) .tops {
+  background: #965DF5; }
+
+/* line 161, style.scss */
+.boxss:nth-child(4) .tops {
+  background: #4BC670; }
+
+/* line 166, style.scss */
+.footer {
+  width: 100%;
+  height: .1rem;
+  background: #eee; }
+
+/* line 171, style.scss */
+.swiper1 {
+  width: 100%; }
+  /* line 173, style.scss */
+  .swiper1 .swiper-wrapper {
+    width: 100%; }
+    /* line 175, style.scss */
+    .swiper1 .swiper-wrapper .swiper-slide {
+      width: 100%;
+      display: flex; }
