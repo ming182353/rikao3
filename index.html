@@ -237,16 +237,6 @@
 	<script src='js/iscroll.js'></script>
 	<script src="js/zepto.min.js"></script>
 
-	<script>
-		var mySwiper = new Swiper(".swiper1",{	
-		})
-		function slideTo(index){
-			mySwiper.slideTo(index)
-		}
-		$(".uls li").on("click",function(){
-			var ind = $(this).index();
-			$(this).addClass("bg").siblings().removeClass("bg");
-			$("hr").animate({"left":ind*33.3+7+'%'},1500)
-		})
-	</script>
+	<script src="mm.js"></script>
+
 </html>
